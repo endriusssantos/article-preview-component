@@ -1,0 +1,53 @@
+@media (max-width: 425px) {
+    .container {
+        position: absolute;
+    }
+
+    .container .card {
+        height: auto;
+        width: 90%;
+        position: relative;
+    }
+
+    .container .card .content {
+        padding-left: 0;
+        padding-top: 300px;
+    }
+
+    .container .card .content .title {
+        font-size: 20px;
+        width: auto;
+        padding: 15px 25px;
+    }
+
+    .container .card .content .description {
+        width: auto;
+        padding: 0 25px;
+    }
+
+    .container .card .content .profile {
+        padding: 20px 0 20px 50px;
+    }
+
+    .container .card .content .profile .share-btn {
+        margin-right: auto;
+    }
+
+    .container .card .content .message {
+        top: 507px;
+        right: 0;
+        width: 370px;
+        height: 80px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding-right: 80px;
+    }
+
+    .container .card .content .profile .share-btn {
+        z-index: 1;
+    }
+
+    .container .card .content .profile .share-btn.selected {
+        background-color: hsl(212, 23%, 69%);
+    }
+}
